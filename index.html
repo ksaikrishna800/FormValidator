@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form" id="userForm" method="get" novalidate>
+      <fieldset>
+        <legend>Please provide your name, email address and Country</legend>
+        <div class="field">
+          <label for="uname">Name</label>
+          <input id="uname" name="name" type="text" />
+          <strong class="error-msg"></strong>
+        </div>
+        <div class="field">
+          <label for="uemail">Email</label>
+          <input id="uemail" type="email" name="email" />
+          <strong class="error-msg"></strong>
+        </div>
+        <div class="field">
+          <label for="ucountry">Country</label>
+          <select id="ucountry" name="country">
+            <option>Select</option>
+            <option>Australia</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+          </select>
+          <strong class="error-msg"></strong>
+        </div>
+        <div class="field">
+          <input class="submit" type="submit" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

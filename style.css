@@ -1,0 +1,15 @@
+.error-msg {
+  color: red;
+  display: none;
+  margin: 5px 0;
+}
+.error-msg.shown {
+  display: block;
+}
+.invalid {
+  outline: red solid;
+}
+
+.field {
+  margin: 20px;
+}
